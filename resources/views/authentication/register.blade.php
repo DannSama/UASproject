@@ -42,6 +42,7 @@
                 @enderror
             </div>
 
+            Sudah punya akun? <button onclick="window.location.href='login';">Login</button><br>
             <button onclick="window.location.href='login';" type="submit" class="btn btn-primary">Daftar</button>
         </form>
     </div

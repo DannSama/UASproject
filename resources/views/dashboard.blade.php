@@ -7,6 +7,5 @@
 </head>
 <body>
     <h1>Dashboard</h1>
-    <button onclick="window.location.href='login';">Login</button>
 </body>
 </html>

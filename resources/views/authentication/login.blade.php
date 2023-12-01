@@ -43,7 +43,8 @@
                 @enderror
             </div>
 
-            <button onclick="window.location.href='dashboard';" type="submit" class="btn btn-primary">Masuk</button> <button onclick="window.location.href='register';">Daftar</button>
+            Tidak punya akun? <button onclick="window.location.href='/';">Daftar</button><br>
+            <button onclick="window.location.href='dashboard';" type="submit" class="btn btn-primary">Masuk</button> 
         </form>
 </body>
 </html>
