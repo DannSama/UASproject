@@ -12,3 +12,17 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('register', function () {
+    return view('register');
+});
+
+//tes pull
+
+Route::get('register', function () {
+    return view('register');
+});
+
+Route::get('register', function () {
+    return view('register');
+});
