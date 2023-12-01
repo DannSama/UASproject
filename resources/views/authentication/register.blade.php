@@ -7,7 +7,7 @@
     <div class="container">
         <h1>Registrasi</h1>
 
-        <form action="" method="post">
+        <form target="_blank" action="login" method="post">
             @csrf
 
             <div class="form-group">
@@ -42,6 +42,6 @@
                 @enderror
             </div>
 
-            <button type="submit" class="btn btn-primary">Daftar</button>
+            <button onclick="window.location.href='login';" type="submit" class="btn btn-primary">Daftar</button>
         </form>
     </div
