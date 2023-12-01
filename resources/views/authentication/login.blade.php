@@ -43,7 +43,7 @@
                 @enderror
             </div>
 
-            <button onclick="window.location.href='dashboard';" type="submit" class="btn btn-primary">Masuk</button>
+            <button onclick="window.location.href='dashboard';" type="submit" class="btn btn-primary">Masuk</button> <button onclick="window.location.href='register';">Daftar</button>
         </form>
 </body>
 </html>
