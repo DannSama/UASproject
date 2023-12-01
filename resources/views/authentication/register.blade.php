@@ -7,7 +7,7 @@
     <div class="container">
         <h1>Registrasi</h1>
 
-        <form action="{{ route('register') }}" method="post">
+        <form action="" method="post">
             @csrf
 
             <div class="form-group">
