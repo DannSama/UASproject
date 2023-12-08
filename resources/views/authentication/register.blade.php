@@ -5,7 +5,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Registrasi</h1>
+        <h1>Register</h1>
 
         <form target="_blank" action="login" method="post">
             @csrf
