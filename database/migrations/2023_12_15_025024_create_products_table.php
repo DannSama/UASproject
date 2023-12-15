@@ -10,11 +10,11 @@ class CreateProductsTable extends Migration
      */
     public function up(): void
     {
-        Schema::create('products', function (Blueprint $table) {
-            $table->id();
+        Schema::create('product', function (Blueprint $table) {
+            $table->id('id_produk');
             $table->string('nama_produk');
             $table->string('jenis_produk');
-            $table->decimal('harga', 8, 2);
+            $table->bigInteger('harga_produk');
             $table->timestamps();
         });
     }

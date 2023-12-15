@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-// resources/views/products/index.blade.php
+
 <table class="table">
     <thead>
         <tr>
@@ -25,8 +25,8 @@
             <td>{{ $product->jenis_produk }}</td>
             <td>{{ $product->harga }}</td>
             <td>
-                <form action="{{ route('products.destroy', $product->id) }}" method="POST">
-                    <a href="{{ route('products.edit', $product->id) }}" class="btn btn-primary">Edit</a>
+                <form action="{{ route('products.destroy', $product->id_produk) }}" method="POST">
+                    <a href="{{ route('products.edit', $product->id_produk) }}" class="btn btn-primary">Edit</a>
                     @csrf
                     @method('DELETE')
                     <button type="submit" class="btn btn-danger">Delete</button>
@@ -36,15 +36,13 @@
         @endforeach
     </tbody>
 </table>
-
-// resources/views/products/create.blade.php
+ 
 <form action="{{ route('products.store') }}" method="POST">
     @csrf
     <div class="form-group">
         <label for="nama_produk">Nama Produk</label>
         <input type="text" class="form-control" id="nama_produk" name="nama_produk" required>
     </div>
-    <div
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

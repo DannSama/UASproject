@@ -1,18 +1,16 @@
-<?php
-
+<?php 
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Product;
 
-
 class ProductController extends Controller
 {
     public function index()
     {
         $products = Product::all();
-        return view('products.index', compact('products'));
+        return view('pages/products', compact('products'));
     }
 
     public function create()
@@ -28,7 +26,7 @@ class ProductController extends Controller
             'harga' => $request->get('harga')
         ]);
         $product->save();
-        return redirect('/products')->with('success', 'Product has been added');
+        return redirect('products')->with('success', 'Product has been added');
     }
 
     public function edit($id)
