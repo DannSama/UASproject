@@ -21,3 +21,13 @@ Route::post('/products', [ProductController::class, 'store']);
 Route::get('/products/{id}/edit', [ProductController::class, 'edit']);
 Route::put('/products/{id}', [ProductController::class, 'update']);
 Route::delete('/products/{id}', [ProductController::class, 'destroy']);
+Route::get('', function () {
+    return view('authentication/register');
+});
+Route::get('login', function(){
+    return view('authentication/login');
+});
+
+Route::get('dashboard', function(){
+    return view('dashboard');
+});
