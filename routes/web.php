@@ -34,3 +34,7 @@ Route::get('login', function(){
 Route::get('dashboard', function(){
     return view('dashboard');
 });
+
+Route::get('nav', function(){
+    return view('layout/navbar');
+});
