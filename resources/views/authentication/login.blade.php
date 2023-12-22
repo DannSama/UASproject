@@ -42,8 +42,8 @@
                                     </div>
                                     <form class="user" action="index">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" id="exampleUsername"
-                                                placeholder="Username" maxlength="20" required>
+                                            <input type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                                placeholder="Email Address" maxlength="100" required>
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
