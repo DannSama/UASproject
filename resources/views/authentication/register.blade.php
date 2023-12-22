@@ -55,7 +55,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleRepeatPassword" placeholder="Repeat Password" maxlength="50" required>
+                                            id="exampleRepeatPassword" placeholder="Repeat Password" minlength="8" maxlength="50" required>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block">Register Account</button>
