@@ -40,7 +40,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
-                                    <form class="user" action="index.html">
+                                    <form class="user" action="index">
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user" id="exampleUsername"
                                                 placeholder="Username" maxlength="20" required>
@@ -66,11 +66,11 @@
                                         </a> -->
                                     </form>
                                     <hr>
-                                    <div class="text-center">
+                                    <!-- <div class="text-center">
                                         <a class="small" href="forgot-password.html">Forgot Password?</a>
-                                    </div>
+                                    </div> -->
                                     <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
+                                        <a class="small" href="/">Create an Account!</a>
                                     </div>
                                 </div>
                             </div>
