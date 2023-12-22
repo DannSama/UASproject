@@ -40,14 +40,14 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
-                                    <form class="user" action="index">
+                                    <form class="user" action="dashboard">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user" id="exampleInputEmail"
                                                 placeholder="Email Address" maxlength="100" required>
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Password" maxlength="50" required>
+                                                id="exampleInputPassword" placeholder="Password" minlength="8" maxlength="50" required>
                                         </div>
                                         <!-- <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
