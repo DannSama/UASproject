@@ -45,8 +45,8 @@
                                         placeholder="Email Address" maxlength="100" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-user" id="exampleUsername"
-                                        placeholder="Username" maxlength="20" required>
+                                    <input type="number" class="form-control form-control-user" id="examplePhone"
+                                        placeholder="Phone" maxlength="15" required>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
